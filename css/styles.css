@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Notch:wght@200..700&display=swap');
+
+body {
+    text-align: center;
+}
+
+.card-group>.card {
+    flex: 1 0 0;
+    margin-bottom: 0;
+    padding: 0.3rem;
+    font-family: 'Stack Sans Notch', sans-serif;
+    color: #fff;
+}
+.card-group .card {
+  margin: 0 30px; 
+}
+
+.h5,
+h5 {
+    font-size: 2.2rem;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.cardSet1 {
+    background-color: #669999;
+}
+
+.cardSet2 {
+    background-color: #cc6666;
+}
+
+.cardSet3 {
+    background-color: #cc9966;
+}
+
+.btnClass{
+    background-color: #1b538c;
+    color: white;
+    height: 300px;
+}
